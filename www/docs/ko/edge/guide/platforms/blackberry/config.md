@@ -16,13 +16,11 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: 블랙베리 구성
 ---
 
 # 블랙베리 구성
 
-블랙베리는 완벽 하 게 [W3C 위젯 사양][1] 뿐만 아니라 독자적인 테두리 확장을 지원합니다. 전체 [블랙베리 WebWorks 설명서 config.xml에 관한][2] 자세한 내용은 참조 하십시오.
+블랙베리는 완벽하게 [W3C 위젯 사양][1] 뿐만 아니라 독자적인 테두리 확장을 지원합니다. 전체 [블랙베리 WebWorks 설명서 config.xml에 관한][2] 자세한 내용은 참조하십시오.
 
  [1]: http://www.w3.org/TR/widgets/
  [2]: https://developer.blackberry.com/html5/documentation/working_with_config_xml_file_1866970_11.html

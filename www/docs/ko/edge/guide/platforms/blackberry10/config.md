@@ -16,26 +16,24 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: 블랙베리 10 구성
 ---
 
 # 블랙베리 10 구성
 
-`config.xml`파일을 각 응용 프로그램 및 CordovaWebView 인스턴스에 적용 되는 응용 프로그램의 기본 설정 제어. 블랙베리 10에만 적용이 섹션 세부 환경 설정을 작성 합니다. 글로벌 구성 옵션에 대 한 내용은 [config.xml 파일을][1] 참조 하십시오.
+`config.xml`파일은 각 응용 프로그램 및 CordovaWebView 인스턴스에 적용되는 앱의 기본 설정을 제어합니다. 이 단원에서는 블랙베리 10에만 적용이 단원 세부 환경 설정을 작성 합니다. 전역 설정 옵션에 대한 내용은 [config.xml 파일을][1] 참조하십시오.
 
  [1]: config_ref_index.md.html#The%20config.xml%20File
 
-*   `ChildBrowser`( `disable` 기본 `enable` ): 아이 브라우저 창을 사용 하지 않도록 설정 합니다. 기본적으로 애플 리 케이 션을 통해 액세스 하는 리소스를 표시 하려면 보조 브라우저 창을 시작 `window.open()` 또는 지정 하는 `_blank` 앵커 대상. 지정 `disable` 이 기본 동작을 재정의 합니다.
+*   `ChildBrowser`( `disable` 기본 `enable` ): 아이 브라우저 창을 사용하지 않도록 설정합니다. 기본적으로 앱을 통해 액세스 하는 리소스를 표시 하려면 보조 브라우저 창을 시작 `window.open()` 또는 지정하는 `_blank` 앵커 대상. 지정 `disable` 이 기본 동작을 재정의합니다.
     
         <preference name="ChildBrowser" value="disable"/>
         
 
-*   `PopupBlocker`( `enable` 기본 `disable` ): 팝업 차단기에 대 한 호출을 방지 수 있습니다 `window.open()` . 기본적으로 팝업 하위 브라우저 창에 표시 됩니다. 기본 설정 `enable` 전혀 표시 되지 않도록 방지 합니다.
+*   `PopupBlocker`( `enable` 기본 `disable` ): 팝업 차단기에 대한 호출을 방지 수 있습니다 `window.open()` . 기본적으로 팝업 하위 브라우저 창에 표시됩니다. 기본 설정 `enable` 전혀 표시되지 않도록 방지 합니다.
     
         <preference name="PopupBlocker" value="enable"/>
         
 
-*   `WebSecurity`( `disable` 기본 `enable` ): 설정 `disable` 알 수 없는 소스에서 원격 콘텐츠에 액세스할 수 있도록 웹 보안 설정을 무시 합니다. 이 기본 설정은 개발 편의, 그래서 제거 배포용 응용 프로그램을 포장 하기 전에 것입니다. 출시 애플 리 케이 션에 대 한 모든 Uri 해야 알려진 허용을 사용 하는 `<access>` 도메인 화이트 리스트 가이드에 설명 된 요소.
+*   `WebSecurity`( `disable` 기본 `enable` ): 설정 `disable` 알 수 없는 소스에서 원격 콘텐츠에 액세스할 수 있도록 웹 보안 설정을 무시 합니다. 이 기본 설정은 개발 편의, 그래서 제거 배포용 응용 프로그램을 포장 하기 전에 것입니다. 출시 앱에 대한 모든 Uri 해야 알려진 허용을 사용하는 `<access>` 도메인 화이트 리스트 가이드에 설명된 요소.
     
         <preference name="WebSecurity" value="disable"/>

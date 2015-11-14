@@ -16,17 +16,15 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: 데이터베이스
 ---
 
 # 데이터베이스
 
-SQL 데이터베이스에 대 한 액세스를 제공합니다.
+SQL 데이터베이스에 대한 액세스를 제공합니다.
 
 ## 메서드
 
-*   **트랜잭션**: 데이터베이스 트랜잭션을 실행 합니다.
+*   **트랜잭션**: 데이터베이스 트랜잭션을 실행합니다.
 
 *   **changeVersion**: 자동으로 버전 번호를 확인 하 고 스키마를 업데이트할 때 변경 스크립트를 수 있습니다.
 
@@ -34,12 +32,12 @@ SQL 데이터베이스에 대 한 액세스를 제공합니다.
 
 `window.openDatabase()`메서드가 반환 된 `Database` 개체.
 
-## 지원 되는 플랫폼
+## 지원되는 플랫폼
 
-*   안 드 로이드
+*   안드로이드
 *   블랙베리 WebWorks (OS 6.0 및 높은)
 *   iOS
-*   Tizen
+*   타이젠
 
 ## 트랜잭션 빠른 예제
 

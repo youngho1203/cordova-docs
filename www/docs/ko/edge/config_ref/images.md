@@ -16,39 +16,37 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: 아이콘 및 시작 화면
 ---
 
-# 아이콘 및 시작 화면
+# 아이콘 및 시작화면
 
-이 섹션에서는 응용 프로그램의 아이콘과 코르도바 CLI (명령줄 인터페이스에서 설명)에서 작업할 때 둘 다 다양 한 플랫폼에 대 한 선택적 스플래시 화면을 구성 하는 방법 (플랫폼 가이드에 자세히 설명) 플랫폼 SDK 도구를 사용 하 여 또는.
+이 단원에서는, 코르도바 CLI (명령줄 인터페이스에서 설명) 에서 작업할 때 또는 플랫폼에 특정된 SDK 도구 (플랫폼 가이드들에서 자세히 설명)를 사용할 때의 경우, 두가지 모두에 대하여 앱의 아이콘과 여러 플랫폼의 추가적인 시작화면을 구성하는 방법에 대하여 알아봅니다.
 
-## CLI 구성 아이콘
+## CLI 를 이용하여 아이콘들을 구성하기
 
-CLI에서 근무를 통해 애플 리 케이 션 아이콘을 정의할 수 있습니다 때 `<icon>` 요소 ( `config.xml` ). 아이콘을 지정 하지 않으면 아파치 코르도바 로고 사용 됩니다.
+CLI 를 사용하여 작업을 할때 `<icon>` 요소 ( `config.xml` )를 통하여 앱 아이콘들을 지정할 수 있습니다. 만약 아이콘을 지정하지 않으면 기본으로 아파치 코르도바 로고가 사용됩니다.
 
         <icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi" />
     
 
-src: (필수) 이미지 파일을 프로젝트 디렉터리에 상대적인 위치를 지정 합니다
+src:  (필수) 이미지 파일의 위치를 프로젝트 디렉터리의 상대위치로 지정합니다
 
-플랫폼: (선택 사항) 대상 플랫폼
+platform: (선택사항) 대상 플랫폼
 
-폭: (선택 사항) 아이콘 너비 (픽셀)
+width: (선택사항) 픽셀단위의 아이콘 너비
 
-높이: (선택 사항) 아이콘 높이 (픽셀)
+height: (선택사항) 픽셀단위의 아이콘 높이
 
-밀도: 특정 일 (선택 사항) 안 드 로이드 아이콘 밀도 지정 합니다.
+density: (선택사항) 안드로이드만, 아이콘 밀도를 지정합니다.
 
-다음 구성은 모든 플랫폼에 사용할 수 있는 단일 기본 아이콘을 정의 하기 위해 사용할 수 있습니다.
+다음 구성은 하나의 기본 아이콘으로 모든 플랫폼에서 사용할 수 있도록 설정하는 것을 보여줍니다.
 
         <icon src="res/icon.png" />
     
 
-각 플랫폼에 대해 다른 화면 해상도 맞게 설정 픽셀 완벽 한 아이콘을 정의할 수 있습니다.
+또한 각 플랫폼에 대해서 서로 다른 화면 해상도들에 대하여 픽셀단위로 화면에 꼭 알맞는 아이콘들을 정의할 수도 있습니다.
 
-아마존 화재 운영 체제
+아마존 Fire OS
 
          <platform name="amazon-fireos">
                   <icon src="res/android/ldpi.png" density="ldpi" />
@@ -58,7 +56,7 @@ src: (필수) 이미지 파일을 프로젝트 디렉터리에 상대적인 위�
          </platform>
     
 
-안 드 로이드
+안드로이드
 
          <platform name="android">
                   <icon src="res/android/ldpi.png" density="ldpi" />
@@ -68,7 +66,7 @@ src: (필수) 이미지 파일을 프로젝트 디렉터리에 상대적인 위�
          </platform>
     
 
-BlackBerry10
+블랙베리 10
 
          <platform name="blackberry10">
                   <icon src="res/bb10/icon-86.png" />
@@ -76,7 +74,7 @@ BlackBerry10
          </platform>
     
 
-여러 크기 및 로케일을 타겟팅에 대 한 블랙베리의 설명서를 참조 하십시오. [http://developer.blackberry.com/html5/documentation/icon_element.html]
+보다 다양한 크기와 로케일 설정을 위하여는 블랙베리의 설명서를 참조 하십시오. [http://developer.blackberry.com/html5/documentation/icon_element.html]
 
 Firefox 운영 체제
 
@@ -117,14 +115,14 @@ iOS
          </platform>
     
 
-Tizen
+타이젠
 
          <platform name="tizen">
                   <icon src="res/tizen/icon-128.png" width="128" height="128" />
          </platform>
     
 
-윈도우 Phone8
+윈도우폰 8
 
          <platform name="wp8">
                   <icon src="res/wp/ApplicationIcon.png" width="99" height="99" />
@@ -133,7 +131,7 @@ Tizen
          </platform>
     
 
-Windows8
+윈도우8
 
          <platform name="windows8">
                   <icon src="res/windows8/logo.png" width="150" height="150" />
@@ -142,13 +140,13 @@ Windows8
          </platform>
     
 
-## CLI에서 시작 화면을 구성
+## CLI 을 사용하여 시작화면을 구성하기
 
-최상위 수준에서 `config.xml` 파일 (아니라 하나에 `platforms` ), 여기에 지정 된 것과 같은 구성 요소를 추가 합니다.
+최상위 수준에 있는 `config.xml` 파일에 (`platforms` 아래에 있는 것이 아닙니다.), 여기에서 지정된 것과 같은 구성 요소를 추가합니다.
 
 # 예제 구성
 
-"Src" 특성의 값은 프로젝트 디렉터리를 기준으로 그리고 www 디렉토리를 주의 하십시오. 원하는 소스 이미지 이름을 지정할 수 있습니다. 응용 프로그램에서 내부 이름은 코르도바에 의해 결정 됩니다.
+"src" 속성의 값은 프로젝트 디렉터리에 대한 상대값으로 설정되지 www 디렉토리를 기준으로 설정되지 않음을 참조 하십시오. 당신은 원하는 소스 이미지 이름을 지정할 수 있습니다. 앱 내부 에서 사용되는 이름은 코르도바에 의해 결정 됩니다.
 
     <platform name="android">
         <!-- you can use any density that exists in the Android project -->
@@ -197,9 +195,9 @@ Windows8
     <preference name="SplashScreenDelay" value="10000" />
     
 
-# 지원 되는 플랫폼
+# 지원되는 플랫폼
 
-지금 현재 (코르도바 3.5.0 7 월 2014) 다음 [플랫폼 지원](../guide/support/index.html) 시작 화면.
+지금 현재 (코르도바 3.5.0, 2014년 7월) 아래의 플랫폼들에 대하여 시작화면을 지원합니다.
 
     android
     ios
@@ -208,6 +206,7 @@ Windows8
     blackberry10
     
 
-# Splashscreen 플러그인
+# 시작화면(Splashscreen) 플러그인
 
-또한 프로그래밍 방식으로 표시 하 고 응용 프로그램 실행 https://github.com/apache/cordova-plugin-splashscreen 동안 시작 화면을 숨기는 데 사용할 수 있는 특별 한 스플래시 화면 플러그인을 제공 하는 아파치 코르도바
+아파치 코르도바는 앱이 시작하는 동안에 프로그래밍 방식으로 시작화면을 보이거나 감출수 있는 기능을 제공하는 특별한 시작화면 플러그인(Splash Screen Plugin)을 제공합니다.
+ https://github.com/apache/cordova-plugin-splashscreen

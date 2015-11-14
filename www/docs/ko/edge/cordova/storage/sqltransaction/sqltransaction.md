@@ -16,8 +16,6 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: SQLTransaction
 ---
 
 # SQLTransaction
@@ -26,18 +24,18 @@ title: SQLTransaction
 
 ## 메서드
 
-*   **executeSql**: SQL 문을 실행 합니다.
+*   **executeSql**: SQL 문을 실행합니다.
 
 ## 세부 정보
 
-전화는 `Database` 개체의 트랜잭션 메서드, 패스를 `SQLTransaction` 개체는 지정 된 콜백 메서드를.
+전화는 `Database` 개체의 트랜잭션 메서드, 패스를 `SQLTransaction` 개체는 지정된 콜백 메서드를.
 
-## 지원 되는 플랫폼
+## 지원되는 플랫폼
 
-*   안 드 로이드
+*   안드로이드
 *   블랙베리 WebWorks (OS 6.0 및 높은)
 *   iOS
-*   Tizen
+*   타이젠
 
 ## SQL 빠른 예제 실행
 

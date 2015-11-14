@@ -16,17 +16,15 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: WebViews 포함
 ---
 
-# WebViews 포함
+# 임베딩 WebViews
 
-코르 도우 바 응용 프로그램은 일반적으로는 브라우저 기반의 *WebView* 네이티브 모바일 플랫폼으로 구현 됩니다. 이 섹션 사용 방법을 보여 줍니다, 플랫폼 지원에 대 한 자신의 WebView를 만들 있도록 전체 구성 요소 코르도바 api. 다음 혼합 응용 프로그램에서 기본 구성 요소와 함께이 코르도바 응용 프로그램 구성 요소를 배포할 수 있습니다.
+코르도바 응용 프로그램은 네이티브 모바일 플랫폼에서 브라우저 기반의 *WebView* 로 구현됩니다. 이 단원에서는, 지원하는 플랫폼들에 대하여, 모든 코르도바 API들을 사용하여 어떻게 당신 자신의 WebView 구성요소를 만드는지에 대하여 보여줍니다. 당신은 코르도바 응용 프로그램을 네이티브 요소가 포함된 하이브리드 앱으로 코르도바 응용 프로그램을 배포할 수 있습니다.
 
-WebView를 배포 하려면 각 네이티브 프로그래밍 환경에 잘 알고 해야 합니다. 다음은 지원 되는 플랫폼에 대 한 지침.
+WebView 를 배포하려면 각 네이티브 프로그래밍 환경을 잘 알고 있어야 합니다. 다음은 지원되는 플랫폼에 대한 지침입니다.
 
-*   [아마존 화재 OS WebViews](../../platforms/amazonfireos/webview.html)
-*   [안 드 로이드 WebViews](../../platforms/android/webview.html)
-*   [iOS WebViews](../../platforms/ios/webview.html)
-*   [Windows Phone 8.0 WebViews](../../platforms/wp8/webview.html)
+*   아마존 Fire OS WebViews
+*   안드로이드 WebViews
+*   iOS WebViews
+*   윈도우폰 8.0 WebViews

@@ -16,27 +16,25 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: menubutton
 ---
 
 # menubutton
 
-이벤트는 사용자가 메뉴 버튼을 누를 때 발생 합니다.
+이벤트는 사용자가 메뉴 버튼을 누를 때 발생합니다.
 
     document.addEventListener("menubutton", yourCallbackFunction, false);
     
 
 ## 세부 정보
 
-[이벤트](events.html) 처리기를 적용 기본 메뉴 버튼 동작을 재정의 합니다.
+이벤트 처리기를 적용 기본 메뉴 버튼 동작을 재정의합니다.
 
-일반적으로 응용 프로그램을 사용 해야 합니다 `document.addEventListener` 한번 [이벤트](events.html) 리스너를 연결 하는 `[deviceready](events.deviceready.html)` 이벤트가 발생 합니다.
+일반적으로 응용 프로그램을 사용해야 합니다 `document.addEventListener` 한번 이벤트 리스너를 연결 하는 `deviceready` 이벤트가 발생합니다.
 
-## 지원 되는 플랫폼
+## 지원되는 플랫폼
 
-*   아마존 화재 운영 체제
-*   안 드 로이드
+*   아마존 Fire OS
+*   안드로이드
 *   블랙베리 10
 
 ## 빠른 예제
@@ -48,7 +46,7 @@ title: menubutton
     }
     
 
-## 전체 예제
+## 완전한 예제
 
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
                           "http://www.w3.org/TR/html4/strict.dtd">

@@ -16,27 +16,25 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: backbutton
 ---
 
 # backbutton
 
-이벤트는 사용자가 뒤로 버튼을 누를 때 발생 합니다.
+이벤트는 사용자가 뒤로 버튼을 누를 때 발생합니다.
 
     document.addEventListener("backbutton", yourCallbackFunction, false);
     
 
 ## 세부 정보
 
-기본 뒤로 버튼 동작을 재정의 하려면 등록에 대 한 [이벤트](events.html) 리스너는 `backbutton` 이벤트를 호출 하 여 일반적으로 `document.addEventListener` 받으시면는 `[deviceready](events.deviceready.html)` [이벤트](events.html). 그것은 더 이상 뒤로 버튼 동작을 재정의 하려면 다른 메서드를 호출 하는 데 필요한입니다.
+기본 뒤로 버튼 동작을 재정의 하려면 등록에 대한 이벤트 리스너는 `backbutton` 이벤트를 호출하여 일반적으로 `document.addEventListener` 받으시면는 `deviceready` 이벤트. 그것은 더 이상 뒤로 버튼 동작을 재정의 하려면 다른 메서드를 호출 하는 데 필요한입니다.
 
-## 지원 되는 플랫폼
+## 지원되는 플랫폼
 
-*   아마존 화재 운영 체제
-*   안 드 로이드
+*   아마존 Fire OS
+*   안드로이드
 *   블랙베리 10
-*   Windows Phone 8
+*   윈도우폰 8
 
 ## 빠른 예제
 
@@ -47,7 +45,7 @@ title: backbutton
     }
     
 
-## 전체 예제
+## 완전한 예제
 
     <!DOCTYPE html>
     <html>

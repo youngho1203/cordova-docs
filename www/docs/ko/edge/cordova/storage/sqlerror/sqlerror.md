@@ -16,17 +16,15 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: SQLError
 ---
 
 # SQLError
 
-A `SQLError` 개체 오류가 발생 하면 throw 됩니다.
+A `SQLError` 개체 오류가 발생하면 throw 됩니다.
 
 ## 속성
 
-*   **코드**: 미리 정의 된 오류 코드 중 하나가 아래에 나열 된.
+*   **코드**: 미리 정의된 오류 코드 중 하나가 아래에 나열된.
 
 *   **메시지**: 오류 설명.
 
@@ -43,4 +41,4 @@ A `SQLError` 개체 오류가 발생 하면 throw 됩니다.
 
 ## 설명
 
-`SQLError`개체는 데이터베이스를 조작 하는 경우 오류가 발생 하면 throw 됩니다.
+`SQLError`개체는 데이터베이스를 조작 하는 경우 오류가 발생하면 throw 됩니다.

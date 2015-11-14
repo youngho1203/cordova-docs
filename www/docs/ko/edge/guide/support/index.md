@@ -16,13 +16,11 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: 플랫폼 지원
 ---
 
-# 플랫폼 지원
+# 지원하는 플랫폼
 
-다음 개발 도구 및 각 모바일 플랫폼에 대 한 장치 사용할 수 있는 Api의 집합을 보여 줍니다. Api는 여기에 나열 된 장치는 추가 Api는 [타사 플러그인][1]을 통해 사용할 수 있는 핵심 플러그인에 의해 제공 됩니다. 열 머리글 표시 CLI의 속기 이름.
+아래는 각 모바일 플랫폼에서 사용할 수 있는 개발툴과 장치 API의 표를 보여줍니다. 여기에 나열된 장치 API는 코어 플러그인들에 의해 제공되는 것들이고, 추가적인 API들을 [타사 플러그인][1]을 통해 사용할 수 있습니다. 열의 머리글은 CLI의 빠른 이름을 나타냅니다.
 
  [1]: http://plugins.cordova.io
 
@@ -36,7 +34,7 @@ title: 플랫폼 지원
       </th>
       
       <th>
-        <tt>안 드 로이드</tt>
+        <tt>안드로이드</tt>
       </th>
       
       <th>
@@ -44,7 +42,7 @@ title: 플랫폼 지원
       </th>
       
       <th>
-        <tt>Firefox 운영 체제</tt>
+        <tt>Firefox OS 체제</tt>
       </th>
       
       <th>
@@ -56,20 +54,20 @@ title: 플랫폼 지원
       </th>
       
       <th>
-        <tt>wp8</tt><br />(Windows Phone 8)
+        <tt>wp8</tt><br />(윈도우폰 8)
       </th>
       
       <th>
-        <tt>윈도우</tt><br />(8.0, 8.1, 10,<br />8.1 전화)
+        <tt>윈도우</tt><br />(8.0, 8.1,<br />폰 8.1)
       </th>
       
       <th>
-        <tt>tizen</tt>
+        <tt>타이젠</tt>
       </th></tr> </thead> 
       
       <tr>
         <th>
-          <a href="../cli/index.html">코르 도우 바<br />CLI</a>
+          <a href="guide_cli_index.md.html">코르도바<br />CLI</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -109,15 +107,15 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="../hybrid/webviews/index.html">임베디드<br />WebView</a>
+          <a href="guide_hybrid_webviews_index.md.html">임베디드<br />WebView</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
-          <a href="../platforms/amazonfireos/webview.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_amazonfireos_webview.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="android"    class="y">
-          <a href="../platforms/android/webview.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_android_webview.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="blackberry10" class="n">
@@ -127,7 +125,7 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="ios"        class="y">
-          <a href="../platforms/ios/webview.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_ios_webview.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="ubuntu"        class="y">
@@ -145,33 +143,33 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="../hybrid/plugins/index.html">플러그 인<br />인터페이스</a>
+          <a href="guide_hybrid_plugins_index.md.html">플러그인<br />인터페이스</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
-          <a href="../platforms/amazonfireos/plugin.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_amazonfireos_plugin.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="android"    class="y">
-          <a href="../platforms/android/plugin.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_android_plugin.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="blackberry10" class="y">
-          <a href="../platforms/blackberry10/plugin.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_blackberry10_plugin.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="firefoxos" class="n">
         </td>
         
         <td data-col="ios"        class="y">
-          <a href="../platforms/ios/plugin.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_ios_plugin.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="ubuntu"        class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
-          <a href="../platforms/wp8/plugin.html">(상세 내용 보기)</a>
+          <a href="guide_platforms_wp8_plugin.md.html">(상세 내용 보기)</a>
         </td>
         
         <td data-col="win8"       class="y">
@@ -186,13 +184,13 @@ title: 플랫폼 지원
         </th>
         
         <th colspan="20">
-          플랫폼 Api
+          플랫폼 API
         </th>
       </tr>
       
       <tr>
         <th>
-          <a href="https://www.npmjs.com/package/cordova-plugin-device-motion">가 속도계</a>
+          <a href="https://www.npmjs.com/package/cordova-plugin-device-motion">가속도계</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -225,7 +223,7 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="https://www.npmjs.com/package/cordova-plugin-battery-status">BatteryStatus</a>
+          <a href="https://www.npmjs.com/package/cordova-plugin-battery-status">배터리상태</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -250,7 +248,7 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="win8"       class="y">
-          * Windows Phone 13.1만
+          * 윈도우폰 13.1만
         </td>
         
         <td data-col="tizen"       class="y">
@@ -459,7 +457,7 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="../../cordova/events/events.html">이벤트</a>
+          <a href="cordova_events_events.md.html">이벤트</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -535,7 +533,7 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="blackberry10" class="y">
-          * Onprogress를 지원 하거나 중단 하지 마십시오
+          * '진행중', '중단'을 지원하지 않음
         </td>
         
         <td data-col="firefoxos" class="n">
@@ -548,11 +546,11 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="winphone8"  class="y">
-          * Onprogress를 지원 하거나 중단 하지 마십시오
+          * '진행중', '중단'을 지원하지 않음
         </td>
         
         <td data-col="win8"       class="y">
-          * Onprogress를 지원 하거나 중단 하지 마십시오
+          * '진행중', '중단'을 지원하지 않음
         </td>
         
         <td data-col="tizen"       class="n">
@@ -561,7 +559,7 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="https://www.npmjs.com/package/cordova-plugin-geolocation">지리적 위치</a>
+          <a href="https://www.npmjs.com/package/cordova-plugin-geolocation">위치 정보</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -652,7 +650,7 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="win8"       class="p">
-          iframe을 사용 하 여
+          iframe을 사용하여
         </td>
         
         <td data-col="tizen"       class="n">
@@ -727,7 +725,7 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="https://www.npmjs.com/package/cordova-plugin-splashscreen">Splashscreen</a>
+          <a href="https://www.npmjs.com/package/cordova-plugin-splashscreen">시작화면</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -785,7 +783,7 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="win8"       class="y">
-          * Windows Phone 13.1만
+          * 윈도우폰 13.1만
         </td>
         
         <td data-col="tizen"       class="n">
@@ -794,7 +792,7 @@ title: 플랫폼 지원
       
       <tr>
         <th>
-          <a href="../../cordova/storage/storage.html">스토리지</a>
+          <a href="cordova_storage_storage.md.html">스토리지</a>
         </th>
         
         <td data-col="amazon-fireos" class="y">
@@ -816,11 +814,11 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="winphone8"  class="y">
-          <a href="../../cordova/storage/localstorage/localstorage.html">localStorage</a> & indexedDB
+          로컬스토리지 & indexedDB
         </td>
         
         <td data-col="win8"       class="y">
-          <a href="../../cordova/storage/localstorage/localstorage.html">localStorage</a> & indexedDB
+          로컬스토리지 & indexedDB
         </td>
         
         <td data-col="tizen"       class="y">
@@ -854,11 +852,11 @@ title: 플랫폼 지원
         </td>
         
         <td data-col="win8"       class="y">
-          * Windows Phone 13.1만
+          * 윈도우폰 13.1만
         </td>
         
         <td data-col="tizen"       class="n">
         </td>
       </tr></table> 
-      
-      <!-- END HTML -->
+
+<!-- END HTML -->

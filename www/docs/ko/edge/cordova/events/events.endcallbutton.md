@@ -16,24 +16,22 @@ license: >
     KIND, either express or implied.  See the License for the
     specific language governing permissions and limitations
     under the License.
-
-title: endcallbutton
 ---
 
 # endcallbutton
 
-최종 호출 단추를 누를 때이 이벤트가 발생 합니다.
+최종 호출 단추를 누를 때이 이벤트가 발생합니다.
 
     document.addEventListener("endcallbutton", yourCallbackFunction, false);
     
 
 ## 세부 정보
 
-[이벤트](events.html) 기본 끝 전화 동작을 재정의 합니다.
+이벤트 기본 끝 전화 동작을 재정의합니다.
 
-일반적으로 응용 프로그램을 사용 해야 합니다 `document.addEventListener` 한번 [이벤트](events.html) 리스너를 연결 하는 `[deviceready](events.deviceready.html)` 이벤트가 발생 합니다.
+일반적으로 응용 프로그램을 사용해야 합니다 `document.addEventListener` 한번 이벤트 리스너를 연결 하는 `deviceready` 이벤트가 발생합니다.
 
-## 지원 되는 플랫폼
+## 지원되는 플랫폼
 
 *   블랙베리 10
 
@@ -46,7 +44,7 @@ title: endcallbutton
     }
     
 
-## 전체 예제
+## 완전한 예제
 
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
                           "http://www.w3.org/TR/html4/strict.dtd">
